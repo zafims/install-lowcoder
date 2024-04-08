@@ -23,3 +23,13 @@ $ docker-compose rm -fsv lowcoder
 
 $ docker-compose up -d
 
+==================== By Docker Hub ==================
+
+$ hub.docker.com/r/rednow/lowercoder/tags
+
+$ docker pull rednow/lowercoder:latest
+
+$ docker run -d --name lowcoder -p 49160:22 -p 8080:8080 -p 1521:1521 rednow/lowercoder:latest
+
+
+
